@@ -1,0 +1,50 @@
+body{
+  background-color: bisque;
+}
+
+.App{
+  border: 1px solid #000000;
+  margin: 100px 30%;
+  padding: 50px;
+  text-align: center;
+  border-radius: 20px;
+}
+ 
+
+.App ul{
+  list-style: "🔄";
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.App input{
+  margin: 15px;
+  width: 200px;
+  height: 30px;
+  border-radius: 15px;
+  }
+
+.App button{
+  display: block;
+  border-radius: 10px;
+  margin: auto;
+  width: 150px;
+  height: 30px;
+  background-color: #000000;
+  color: aliceblue;
+}  
+
+.App ul li{
+  word-wrap: break-word;
+}
+
+.diffstyle{
+  list-style: "✅";
+  text-decoration: line-through;
+}
+
+.div1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
